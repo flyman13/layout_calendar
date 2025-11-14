@@ -10,6 +10,7 @@ body {
 }
 
 .calendar {
+  padding: $day-padding;
   display: flex;
   flex-wrap: wrap;
   gap: $gap;
@@ -17,7 +18,7 @@ body {
 
   &__day {
     border: 1px solid black;
-    padding: $day-padding;
+
     background-color: #eee;
     width: $day-size;
     height: $day-size;
