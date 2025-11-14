@@ -29,10 +29,10 @@ body {
     font-size: 30px;
     position: relative;
     transition:
-      background-color 1s,
-      transform 1s;
+      background-color 0.5s,
+      transform 0.5s;
 
-    &_day:hover {
+    &:hover {
       cursor: pointer;
       background-color: #ffbfcb;
       transform: translateY(-20px);
